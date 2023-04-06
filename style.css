@@ -1,0 +1,180 @@
+
+
+
+.header {
+    text-align: center;
+    color: #2F80ED;
+    display: flex;
+    /* justify-content:center */
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    
+}
+.polygon{
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    width: 25px; 
+    z-index: -1;
+    
+}
+.dot{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 25px; 
+    z-index: -1;
+}
+.polygon5{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 25px; 
+    z-index: -1;
+    
+}
+.rectangle{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 25px;
+    z-index: -1;
+}
+.elipse{
+    position: absolute;
+    top: 13%;
+    right: 25%;
+    width: 25px; 
+    z-index: -1;
+}
+.vector{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    width: 25px; 
+    z-index: -1;
+}
+.elipse1{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 25px;
+    z-index: -1; 
+}
+@media (max-width: 480px) {
+
+    .elipse1 { display: none; 
+    }
+}
+
+
+
+.logo{
+    
+    
+    
+   
+}
+.message{
+    
+    margin-top: 60px;
+    font-family: 'Poppins';font-size: 32px;
+    letter-spacing: 0.01em;
+    font-style: normal;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 500;
+}
+.msg1{
+    font-family: 'Poppins';font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #828282;
+}
+
+.cover{
+    
+   
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  
+  
+}
+.cover img{
+    /* max-width: 100%;
+   
+     */
+     max-width: 100%;
+    
+}
+
+
+.mailing{
+    
+    margin:0 auto ;
+    margin-top: 80px;
+    max-width: 70%;
+     /* display: block; */
+     text-align: center;
+     box-sizing: border-box;
+
+     /* Auto layout */
+     
+
+    
+}
+.mailing p{
+    margin-top:20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* Black */
+
+color: #000000;
+
+}
+.email{
+    width: 100%;
+    padding: 12px;
+    gap: 8px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 40%;
+   
+}
+.btn{
+    width: 100%;
+    background-color: #2F80ED;
+    border-radius: 0px 8px 8px 0px;
+    width: 132px;
+    height: 40px;
+
+}
+.social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.social a{
+    color: #000000;
+}
+#copyrights{
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-align: center;
+    color: #828282;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
